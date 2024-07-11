@@ -7,5 +7,5 @@ import java.util.List;
 public interface CurrencyService {
     Currency saveCurrency(Currency currency);
     List<Currency> fetchCurrencyList();
-    Currency updateCurrency(Currency currency,Long currencyId);
+    Currency updateCurrency(Currency currency,Integer currencyId);
 }
